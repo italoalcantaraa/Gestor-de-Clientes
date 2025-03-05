@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    align-items: center;
+    background: rgb(36, 36, 36);
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: rgb(46, 46, 46);
+    padding: 50px;
+    border-radius: 20px;
+    min-width: 400px;
+}
+
+form button {
+    max-width: 100px;
+    margin-bottom: 5px;
+}
+
+.mb-3 {
+    color: white;
+}
+
+.mb-3 input {
+    background-color: rgb(36, 36, 36);
+    outline: none;
+    color: white;
+}
+
+.mb-3 input:focus {
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+
+
+#erro {
+    margin-top: 3px;
+    color: red;   
+}

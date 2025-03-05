@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    background: rgb(36, 36, 36);
+    padding: 50px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+table th, tr, td {
+    background-color: rgb(36, 36, 36) !important;
+    color: white !important;
+}
+
+

@@ -22,8 +22,4 @@ public class Usuario {
     
     @Column(nullable = false, length = 80)
     private String email;
-
-    @Column(nullable = false)
-    private Integer idade;
-
 }
